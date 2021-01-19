@@ -2,7 +2,8 @@
 
 int main(void) {
         
-        int nX = 33; /* homework, input with scanf */
+        int nX;
+        scanf("%d", &nX);
         int nY = 20;
         if (nX == nY)
                 printf("%d and %d are equal\n", nX, nY);
